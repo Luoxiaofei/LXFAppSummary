@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appsummary.luoxf.myappsummary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.DetailActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".recyclerView.RecyclerViewTabActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".animation.pulltomakesoup.PullToMakeSoupActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.navigationtabstrip.NavigationTabStripActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.AnimationMainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.goodview.GoodViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.pm25.PM25Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.explosionfield.ExplosionFieldActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.loading.LoadingMainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.AnimationUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.HeaderAndFooterUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.SectionUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.MultipleItemUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.EmptyViewUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.ItemDragAndSwipeUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.PullToRefreshUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.recyclerView.RecyclerViewMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.recyclerView.wavesidebar.WaveSideBarActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

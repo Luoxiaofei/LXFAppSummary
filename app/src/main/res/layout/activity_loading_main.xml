@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircularCD
+                        android:id="@+id/lv_circularCD"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircularRing
+                        android:id="@+id/lv_circularring"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircular
+                        android:id="@+id/lv_circular"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVFinePoiStar
+                        android:id="@+id/lv_finePoiStar"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircularSmile
+                        android:id="@+id/lv_circularSmile"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVGears
+                        android:id="@+id/lv_gears"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVGearsTwo
+                        android:id="@+id/lv_gears_two"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:onClick="startAnim"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVWifi
+                        android:id="@+id/lv_wifi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircularJump
+                        android:id="@+id/lv_circularJump"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVCircularZoom
+                        android:id="@+id/lv_circularZoom"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVPlayBall
+                        android:id="@+id/lv_playball"
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVNews
+                        android:id="@+id/lv_news"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVChromeLogo
+                        android:id="@+id/lv_chromeLogo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVBattery
+                        android:id="@+id/lv_battery"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVBlock
+                        android:id="@+id/lv_block"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <com.appsummary.luoxf.myappsummary.animation.loading.view.LVGhost
+                    android:layout_width="200dp"
+                    android:id="@+id/lv_ghost"
+
+                    android:onClick="startAnim"
+                    android:layout_height="120dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVLineWithText
+                        android:id="@+id/lv_linetext"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+
+                    <com.appsummary.luoxf.myappsummary.animation.loading.view.LVEatBeans
+                        android:id="@+id/lv_eatBeans"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:onClick="startAnimAll"
+        android:text="start all"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="stopAnim"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+
+        android:text="stop"/>
+
+
+</RelativeLayout>
