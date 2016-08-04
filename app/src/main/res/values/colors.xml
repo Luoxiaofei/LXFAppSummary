@@ -15,5 +15,11 @@
     <color name="txt_color">#1d1e1e</color>
     <color name="mian_bg">#c3c9ce</color>
     <color name="item_bg">#e0e4e7</color>
+    <color name="compare_detail_bg">#F5F5F9</color>
+    <color name="color_span_line">#DCDCDC</color>
+    <color name="compare_detail_label_check_detail_color">#989898</color>
+    <color name="compare_detail_right_first_font_color">#E06518</color>
+    <color name="compare_detail_right_span_item_bg_color">#F5FCFA</color>
+    <color name="white">#ffffff</color>
 
 </resources>

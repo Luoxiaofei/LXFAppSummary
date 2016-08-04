@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/compare_detail_left_item_width"
+    android:layout_height="@dimen/compare_detail_right_title_height"
+    android:orientation="vertical"
+    android:background="@color/compare_detail_bg"
+    android:gravity="center">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text=""/>
+
+</LinearLayout>

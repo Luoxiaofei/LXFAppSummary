@@ -91,6 +91,11 @@
             android:name="com.appsummary.luoxf.myappsummary.recyclerView.wavesidebar.WaveSideBarActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.recyclerView.comparelist.CompareDetailActivity"
+            android:screenOrientation="portrait" />
+
+
     </application>
 
 </manifest>

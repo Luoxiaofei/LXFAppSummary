@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout style="@style/compare_detail_right_label_layout_style">
+
+        <TextView
+            style="@style/compare_detail_right_label_title_style"
+            android:text="@string/compare_detail_first_title" />
+
+        <TextView
+            style="@style/compare_detail_right_label_check_detail_style"
+            android:text="@string/compare_detail_label_check_detail" />
+
+    </LinearLayout>
+
+
+    <include layout="@layout/ver_span_line" />
+
+    <LinearLayout style="@style/compare_detail_right_label_layout_style">
+
+        <TextView
+            style="@style/compare_detail_right_label_title_style"
+            android:text="@string/compare_detail_second_title" />
+
+        <TextView
+            style="@style/compare_detail_right_label_check_detail_style"
+            android:text="@string/compare_detail_label_check_detail" />
+
+    </LinearLayout>
+
+    <include layout="@layout/ver_span_line" />
+
+    <LinearLayout style="@style/compare_detail_right_label_layout_style">
+
+        <TextView
+            style="@style/compare_detail_right_label_title_style"
+            android:text="@string/compare_detail_third_title" />
+
+        <TextView
+            style="@style/compare_detail_right_label_check_detail_style"
+            android:text="@string/compare_detail_label_check_detail" />
+
+    </LinearLayout>
+
+    <include layout="@layout/ver_span_line" />
+
+    <LinearLayout style="@style/compare_detail_right_label_layout_style">
+
+        <TextView
+            style="@style/compare_detail_right_label_title_style"
+            android:text="@string/compare_detail_third_title" />
+
+        <TextView
+            style="@style/compare_detail_right_label_check_detail_style"
+            android:text="@string/compare_detail_label_check_detail" />
+
+    </LinearLayout>
+
+    <include layout="@layout/ver_span_line" />
+
+    <LinearLayout style="@style/compare_detail_right_label_layout_style">
+
+        <TextView
+            style="@style/compare_detail_right_label_title_style"
+            android:text="@string/compare_detail_third_title" />
+
+        <TextView
+            style="@style/compare_detail_right_label_check_detail_style"
+            android:text="@string/compare_detail_label_check_detail" />
+
+    </LinearLayout>
+
+</LinearLayout>

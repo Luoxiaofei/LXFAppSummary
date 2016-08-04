@@ -37,6 +37,7 @@ import com.appsummary.luoxf.myappsummary.animation.pm25.PM25Activity;
 import com.appsummary.luoxf.myappsummary.animation.pulltomakesoup.PullToMakeSoupActivity;
 import com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.HomeActivity;
 import com.appsummary.luoxf.myappsummary.model.AnimationMainListItemModel;
+import com.appsummary.luoxf.myappsummary.recyclerView.comparelist.CompareDetailActivity;
 import com.appsummary.luoxf.myappsummary.recyclerView.wavesidebar.WaveSideBarActivity;
 
 import java.util.ArrayList;
@@ -51,6 +52,7 @@ public class RecyclerViewMainActivity extends BaseActivity {
     RecyclerView mRecyclerView;
     public static final String ITEMSTR_RECYCLERVIEW_TAB = "recyclerview_tab";
     public static final String ITEMSTR_WAVESIDEBAR = "waveSideBar";
+    public static final String ITEMSTR_COMPARE_LIST = "compareList";
     private static List<Integer> colorList = new ArrayList<>();
 
     @Override
@@ -71,6 +73,9 @@ public class RecyclerViewMainActivity extends BaseActivity {
                         break;
                     case ITEMSTR_WAVESIDEBAR:
                         startActivity(new Intent(RecyclerViewMainActivity.this, WaveSideBarActivity.class));
+                        break;
+                    case ITEMSTR_COMPARE_LIST:
+                        startActivity(new Intent(RecyclerViewMainActivity.this, CompareDetailActivity.class));
                         break;
 
                     default:
@@ -108,6 +113,8 @@ public class RecyclerViewMainActivity extends BaseActivity {
         private void initListItem() {
             initItemModel(ITEMSTR_RECYCLERVIEW_TAB, mContext.getString(R.string.sub_summary_recycler_tab));
             initItemModel(ITEMSTR_WAVESIDEBAR, mContext.getString(R.string.sub_summary_recycler_waveside_bar));
+            initItemModel(ITEMSTR_COMPARE_LIST, mContext.getString(R.string.sub_summary_recycler_compare_list));
+
         }
 
         private void initItemModel(String title, String subtitle) {

@@ -32,6 +32,7 @@
     <!--title -->
     <string name="title_animation">动画实例</string>
     <string name="title_recyclerview_demo">列表实例</string>
+    <string name="title_compare_detail">对比列表实例</string>
 
     <!--summary for list item -->
     <string name="sub_summary_pull_to_make_soup">煮饭下拉动画</string>
@@ -43,6 +44,7 @@
 
     <string name="sub_summary_recycler_tab">RecyclerView tab滑动</string>
     <string name="sub_summary_recycler_waveside_bar">RecyclerView 波浪滑动侧边栏</string>
+    <string name="sub_summary_recycler_compare_list">仿汽车之家产品对比列表</string>
 
     <!--PM2.5 str -->
     <string name="bestapp_name">BestApp</string>
@@ -73,4 +75,11 @@
     <string name="action_reset">Reset</string>
 
     <string name="no_data">There is no data</string>
+
+    <string name="compare_detail_first_title">尊优人生\n中国大陆版</string>
+    <string name="compare_detail_second_title">尊优人生\n亚洲版</string>
+    <string name="compare_detail_third_title">尊优人生\n全球版</string>
+    <string name="compare_detail_label_check_detail">查看详情></string>
+
+    <string name="compare_detail_left_label_baoxianjin">住院医疗\n保险金</string>
 </resources>
