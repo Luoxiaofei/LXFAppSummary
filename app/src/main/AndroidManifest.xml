@@ -95,6 +95,14 @@
             android:name="com.appsummary.luoxf.myappsummary.recyclerView.comparelist.CompareDetailActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.ticker.TickerMainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.ticker.TickerPerfActivity"
+            android:screenOrientation="portrait" />
+
 
     </application>
 

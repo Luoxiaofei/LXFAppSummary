@@ -41,6 +41,7 @@
     <string name="sub_summary_explosion">点击图标爆炸动画</string>
     <string name="sub_summary_loading">Loading动画</string>
     <string name="sub_summary_recycler">RecyclerView动画</string>
+    <string name="sub_summary_ticker">动态文字显示动画</string>
 
     <string name="sub_summary_recycler_tab">RecyclerView tab滑动</string>
     <string name="sub_summary_recycler_waveside_bar">RecyclerView 波浪滑动侧边栏</string>
@@ -82,4 +83,5 @@
     <string name="compare_detail_label_check_detail">查看详情></string>
 
     <string name="compare_detail_left_label_baoxianjin">住院医疗\n保险金</string>
+    <string name="perf_test">Perf test</string>
 </resources>

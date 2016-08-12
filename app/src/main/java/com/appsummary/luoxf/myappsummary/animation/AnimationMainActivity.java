@@ -41,6 +41,7 @@ import com.appsummary.luoxf.myappsummary.animation.goodview.GoodViewActivity;
 import com.appsummary.luoxf.myappsummary.animation.loading.LoadingMainActivity;
 import com.appsummary.luoxf.myappsummary.animation.pm25.PM25Activity;
 import com.appsummary.luoxf.myappsummary.animation.pulltomakesoup.PullToMakeSoupActivity;
+import com.appsummary.luoxf.myappsummary.animation.ticker.TickerMainActivity;
 import com.appsummary.luoxf.myappsummary.baserecyclerviewadapterhelper.HomeActivity;
 import com.appsummary.luoxf.myappsummary.model.AnimationMainListItemModel;
 import com.appsummary.luoxf.myappsummary.recyclerView.RecyclerMainTabAdapter;
@@ -66,6 +67,7 @@ public class AnimationMainActivity extends BaseActivity {
     public static final String ITEMSTR_EXPLOSION = "explosionFiled";
     public static final String ITEMSTR_LOADING = "Loading";
     public static final String ITEMSTR_RECYCLER = "Recycler";
+    public static final String ITEMSTR_TICKER = "Ticker";
     private static List<Integer> colorList = new ArrayList<>();
 
     @Override
@@ -98,6 +100,9 @@ public class AnimationMainActivity extends BaseActivity {
                         break;
                     case ITEMSTR_RECYCLER:
                         startActivity(new Intent(AnimationMainActivity.this, HomeActivity.class));
+                        break;
+                    case ITEMSTR_TICKER:
+                        startActivity(new Intent(AnimationMainActivity.this, TickerMainActivity.class));
                         break;
                     default:
                         break;
@@ -138,6 +143,7 @@ public class AnimationMainActivity extends BaseActivity {
             initItemModel(ITEMSTR_EXPLOSION, mContext.getString(R.string.sub_summary_explosion));
             initItemModel(ITEMSTR_LOADING, mContext.getString(R.string.sub_summary_loading));
             initItemModel(ITEMSTR_RECYCLER, mContext.getString(R.string.sub_summary_recycler));
+            initItemModel(ITEMSTR_TICKER, mContext.getString(R.string.sub_summary_ticker));
 
         }
 
