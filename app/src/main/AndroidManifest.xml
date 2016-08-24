@@ -103,6 +103,9 @@
             android:name="com.appsummary.luoxf.myappsummary.animation.ticker.TickerPerfActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.animation.textexpand.TextViewExpandActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

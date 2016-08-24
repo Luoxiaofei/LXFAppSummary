@@ -33,6 +33,7 @@
     <string name="title_animation">动画实例</string>
     <string name="title_recyclerview_demo">列表实例</string>
     <string name="title_compare_detail">对比列表实例</string>
+    <string name="title_textview_expand">textView展开收起</string>
 
     <!--summary for list item -->
     <string name="sub_summary_pull_to_make_soup">煮饭下拉动画</string>
@@ -84,4 +85,8 @@
 
     <string name="compare_detail_left_label_baoxianjin">住院医疗\n保险金</string>
     <string name="perf_test">Perf test</string>
+
+    <string name="expand">展开</string>
+    <string name="shrink">收缩</string>
+    <string name="tips">这是一个可以伸缩展开并且带平缓过渡动画的自定义文本控件，你可以设置其展开的行数，伸缩收起的图标，伸缩收起的文本和颜色等\n</string>
 </resources>

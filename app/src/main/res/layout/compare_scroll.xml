@@ -29,38 +29,43 @@
         </android.support.design.widget.AppBarLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:orientation="horizontal">
-
-            <include layout="@layout/layout_left_title" />
-
-            <com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.CHScrollView
-                android:id="@+id/item_scroll_title"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:scrollbars="none">
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:orientation="horizontal">
-
-                    <include layout="@layout/layout_right_tab" />
-                </LinearLayout>
-            </com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.CHScrollView>
-        </LinearLayout>
-
-        <com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.PinnedHeaderListView
-            android:id="@+id/scroll_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white"
-            android:dividerHeight="1px">
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical">
 
-        </com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.PinnedHeaderListView>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                <include layout="@layout/layout_left_title" />
+
+                <com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.CHScrollView
+                    android:id="@+id/item_scroll_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/layout_right_tab" />
+                    </LinearLayout>
+                </com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.CHScrollView>
+            </LinearLayout>
+
+            <com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.PinnedHeaderListView
+                android:id="@+id/scroll_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:dividerHeight="1px">
+
+            </com.appsummary.luoxf.myappsummary.recyclerView.comparelist.view.PinnedHeaderListView>
+        </LinearLayout>
     </android.support.design.widget.CoordinatorLayout>
 
 </android.support.v4.widget.DrawerLayout>

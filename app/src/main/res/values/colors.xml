@@ -22,4 +22,7 @@
     <color name="compare_detail_right_span_item_bg_color">#F5FCFA</color>
     <color name="white">#ffffff</color>
 
+    <color name="color_divider_line_gray">#e2e2e2</color>
+    <color name="color_gray_light_content_text">#5d5d5d</color>
+
 </resources>
