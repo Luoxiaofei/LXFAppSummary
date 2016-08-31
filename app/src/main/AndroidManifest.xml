@@ -107,6 +107,15 @@
             android:name="com.appsummary.luoxf.myappsummary.animation.textexpand.TextViewExpandActivity"
             android:screenOrientation="portrait" />
 
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.more.MoreMainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.appsummary.luoxf.myappsummary.more.smsobserver.SmsObserverActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

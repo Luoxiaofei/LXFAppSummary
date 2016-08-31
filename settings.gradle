@@ -1,1 +1,1 @@
-include ':app',':mylibrary',':material-spinner-1.0.5',':ticker'
+include ':app',':mylibrary',':material-spinner-1.0.5',':ticker',':SmsObserverLibrary'

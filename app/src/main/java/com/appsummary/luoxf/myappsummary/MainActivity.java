@@ -32,6 +32,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.appsummary.luoxf.myappsummary.animation.AnimationMainActivity;
+import com.appsummary.luoxf.myappsummary.more.MoreMainActivity;
 import com.appsummary.luoxf.myappsummary.navigationtabstrip.NavigationTabStripActivity;
 import com.appsummary.luoxf.myappsummary.picasso.CircleTransform;
 import com.appsummary.luoxf.myappsummary.recyclerView.RecyclerViewMainActivity;
@@ -140,6 +141,9 @@ public class MainActivity extends BaseActivity implements RecyclerViewAdapter.On
                         break;
                     case R.id.drawer_navigationTabStrip:
                         startActivity(new Intent(MainActivity.this, NavigationTabStripActivity.class));
+                        break;
+                    case R.id.drawer_more:
+                        startActivity(new Intent(MainActivity.this, MoreMainActivity.class));
                         break;
                     default:
                         break;

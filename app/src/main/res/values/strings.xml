@@ -34,6 +34,7 @@
     <string name="title_recyclerview_demo">列表实例</string>
     <string name="title_compare_detail">对比列表实例</string>
     <string name="title_textview_expand">textView展开收起</string>
+    <string name="title_more">其他实例</string>
 
     <!--summary for list item -->
     <string name="sub_summary_pull_to_make_soup">煮饭下拉动画</string>
@@ -47,6 +48,8 @@
     <string name="sub_summary_recycler_tab">RecyclerView tab滑动</string>
     <string name="sub_summary_recycler_waveside_bar">RecyclerView 波浪滑动侧边栏</string>
     <string name="sub_summary_recycler_compare_list">仿汽车之家产品对比列表</string>
+
+    <string name="sub_summary_smsobserver">监听短信获短信验证码</string>
 
     <!--PM2.5 str -->
     <string name="bestapp_name">BestApp</string>

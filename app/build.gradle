@@ -25,6 +25,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':mylibrary')
     compile project(':ticker')
+    compile project(':SmsObserverLibrary')
     compile project(':material-spinner-1.0.5')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
